@@ -9,6 +9,24 @@
     <VendorId>com.typepad.thebuildingcoder</VendorId>
     <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
   </AddIn>
+  <AddIn Type="Command">
+	<Text>Fizz Buzz TextNote Generator</Text>
+	<Description>Some description for RevitAddinAcademy</Description>
+	<Assembly>RevitAddinAcademy.dll</Assembly>
+	<FullClassName>RevitAddinAcademy.Command01Challenge</FullClassName>
+	<ClientId>0AF89681-CBF1-4250-9718-C9CFB47BE3AB</ClientId>
+	<VendorId>com.typepad.thebuildingcoder</VendorId>
+	<VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+	<Text>Delete Backup Files</Text>
+	<Description>Some description for RevitAddinAcademy</Description>
+	<Assembly>RevitAddinAcademy.dll</Assembly>
+	<FullClassName>RevitAddinAcademy.Command_DeleteBackupFiles</FullClassName>
+	<ClientId>55CF2EAF-370C-416F-BC8D-E8F2B310BF45</ClientId>
+	<VendorId>com.typepad.thebuildingcoder</VendorId>
+	<VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
   <AddIn Type="Application">
     <Name>Application RevitAddinAcademy</Name>
     <Assembly>RevitAddinAcademy.dll</Assembly>
